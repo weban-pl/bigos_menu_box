@@ -7,11 +7,11 @@ require "bigos_menu_box/version"
 Gem::Specification.new do |s|
   s.name        = "bigos_menu_box"
   s.version     = BigosMenuBox::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BigosMenuBox."
-  s.description = "TODO: Description of BigosMenuBox."
+  s.authors     = ["Artur Kremens"]
+  s.email       = ["kremenso@o2.pl"]
+  s.homepage    = "http://www.weban.com.pl"
+  s.summary     = "Restaurant menu box for bigos cms system."
+  s.description = "Restaurant menu module"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

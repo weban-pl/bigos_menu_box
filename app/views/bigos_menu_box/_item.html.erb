@@ -1,0 +1,14 @@
+<% pc = pe.product_category %>
+<%= pc.name %>
+<% pc.subcategories.each do |s| %>
+    <h2><%= s.name%></h2>
+    <ul>
+      <% s.products.each do |p| %>
+          <li>
+            <h5><%= p.name %></h5>
+            <p><%= p.description %></p>
+            <p><%= p.price %></p>
+          </li>
+      <% end %>
+    </ul>
+<% end %>

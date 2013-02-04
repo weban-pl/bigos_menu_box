@@ -1,9 +1,0 @@
-<%= pe.simple_fields_for :product_category do |pc| %>
-    <%= pc.input :name %>
-    <div id='product_subcategories'>
-      <%= pc.simple_fields_for :subcategories do |s|%>
-        <%= render partial: '/bigos_menu_box/admin/product_categories/sub_form', locals: {f:s, hide_link: true} %>
-      <% end %>
-      <%= link_to_add_association 'Add new category', pc, :subcategories, :partial => '/bigos_menu_box/admin/product_categories/sub_form', 'data-association-insertion-method' => 'after', :class => 'small button' %>
-    </div>
-<% end %>

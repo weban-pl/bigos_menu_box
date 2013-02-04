@@ -20,11 +20,11 @@ module BigosApp
     end
 
     def render
-      "bigos_menu_box/item"
+      "bigos_menu_box/module/item"
     end
 
     def admin_render
-      "bigos_menu_box/admin/item"
+      "bigos_menu_box/module/admin/item"
     end
 
 

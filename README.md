@@ -17,6 +17,8 @@ After you install BigosMenuBox and add it to your Gemfile, you need to run the g
 
 ```console
 rails generate bigos_menu_box:install
+rake bigos_menu_box:install:migrations
+rake db:migrate
 ```
 
 ## Configuration

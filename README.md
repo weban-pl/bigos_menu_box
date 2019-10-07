@@ -22,6 +22,7 @@ rake bigos_menu_box:install:migrations
 rake db:migrate
 ```
 
+
 ## Configuration
 
 Please set generated settings
